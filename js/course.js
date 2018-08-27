@@ -1,9 +1,4 @@
-/*
-* @Author: admin
-* @Date:   2018-06-28 14:44:38
-* @Last Modified by:   江少
-* @Last Modified time: 2018-06-28 23:12:13
-*/
+
 		var index = 0;
 		var botIndex = 0;
 		var timer;
