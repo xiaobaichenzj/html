@@ -1,0 +1,342 @@
+		*{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		body{
+			background: #eeeeee;
+		}
+		a{
+			text-decoration: none;
+		}
+		nav a{
+			text-align: center;
+			text-decoration: none;
+			display: block;
+			color: #ccc;
+		}
+		nav{
+			/* margin:0; */
+			top:0;
+			left: 0;
+			width: 100%;
+			height: 54px;
+			background: #3d444c;
+			position: fixed;
+			z-index: 101;
+		}
+		#main{
+			width:960px;
+			height: 54px;
+			margin:0 auto;
+			/* background:pink; */
+		}
+		.nav-logo{
+			float: left;
+		}
+		.nav-menu{
+			float: left;
+			height: 54px;
+			margin-right: 50px;
+		}
+		#main ul li{
+			position: relative;
+			float: left;
+			height: 54px;
+		}
+		#main ul li:hover{
+			background:#31363d;
+		}
+		#main ul li a {
+			font-size: 16px;
+			padding:0 15px;
+			line-height: 54px;
+		}
+		#main .nav-menu>li:nth-of-type(4)::after{
+			content: '';
+			display: block;
+			position: absolute;
+			width: 10px;
+			height: 10px;
+			right:3px;
+			top: 9px;
+			background: url(../img/ico-new.png);
+			/*background-color: red;*/
+			z-index: 100;
+		}
+		#main .nav-menu .current{
+			background:#31363d;
+		}
+		#main .nav-secound-menu{
+			position:absolute;
+			// bottom:0px;
+			background-color:#3d444c;
+			display:none;
+		}
+		#main .nav-secound-menu li{
+			height:45px;
+		}
+		#main .nav-secound-menu li a{
+			padding:  5px 5px 0px 5px;
+			width: 78px;
+			line-height:30px;
+			// height:20px;
+		}
+		.nav-search li a {
+			font-size: 13px;
+			height: 54px;
+			/* border-right: 1px solid #fff; */
+		}
+		.nav-search p{
+			position: relative;
+		}
+		.nav-.search p::before{
+			content: '';
+			width: 1px;
+			height: 10px;
+			position: absolute;
+			background: #ccc;
+			top: -31px;
+			right: -15px;
+		
+		}
+		.nav-lgRe{
+			width: 108px;
+			height: 30px;
+			background: red;
+			margin-top: 12px;
+			text-align: center;
+			float: right;
+			border-radius: 15px;
+		}
+		
+		.nav-lgRe a{
+			display: inline;
+			line-height: 26px;
+			color: #fff;
+			font-size: 14px
+		}
+		
+		.active{
+			color: #fff;
+		}
+		header{
+			width: 100%;
+			height: 52px;
+			background-color: white;
+			border: 1px solid gray;
+			border-width:0px 0px 1px 0px;
+			margin-top: 50px;
+		}
+		.nav-list{
+			width: 960px;
+			height: 50px;
+			margin: 0px auto;
+			background: white;
+		}
+		header li{
+			float: left;
+			/*padding: 0px 15px 0px 14px;*/
+			/*line-height: 50px;*/
+		    font-size: 14px; 
+		    border: 1px solid white;
+		    border-width:0px 0px 2px 0px;
+		    cursor: pointer;
+		}
+		header span{
+			float: right;
+			/*padding: 10px;*/
+			line-height: 50px;
+			/*width: 60px;*/
+			/*line-height: 50px;*/
+			font-size: 13px;
+			/*background-color: red;*/
+		}
+		header a{
+			padding: 15px 15px;
+			line-height: 50px;
+			text-decoration: none;
+			color: #333;
+			/*background: red;*/
+		}
+		#wrap{
+			margin: 15px auto;
+			width: 960px;
+		}
+		#ad{
+			width: 960px;
+			margin: 0px auto;
+		}
+		#footer{
+			position: absolute;
+		    /*bottom: 0;*/
+		    left: 0; 
+		    height: 225px;
+		    width: 100%;
+		    /* z-index: 10; */
+		    background: #2A2F35;
+		}
+		#footer .theme{
+			width: 960px;
+			margin: 0px auto;
+			padding: 20px 0;
+		}
+		#footer .ft-main{
+		    float: right;
+		    border-left: 1px solid #646f7c;
+		    width: 300px;
+		    margin: 20px 0 0;
+		    padding: 10px 0 0 30px;
+			font-size: 12px;
+		}
+		#footer .ft-main .links{
+			margin-bottom: 5px;
+		 }
+		#footer .ft-main .links li{
+			display: inline-block;
+		    margin: 0 15px 5px 0;
+		    padding: 2px;
+		}
+		#footer .ft-name{
+			color: #fff;
+			font-size: 20px;
+			margin: 20px 0 30px;
+		}
+		#footer .ft-item{
+			color: #8793a2;
+		    font-size: 14px;
+		    height: 30px;
+		    line-height: 30px;
+		    margin-bottom: 5px;
+		}
+		#footer .ft-item button{
+			background: #00bc9b;
+			padding: 5px 15px;
+			color: #fff;
+			border: 0;
+			border-radius: 5px;
+			float: right;
+			bottom: 10px;
+		}
+		#footer .ft-item button a{
+			color: white;
+		}
+		#footer .ft-app{
+			color: #8793a2;
+		}
+		#footer .links a{
+			color: #a9b8ca;
+		}
+		#footer .webrights li{
+			display: inline-block;
+			margin-bottom: 5px;
+		}
+		/* .webrights a{
+			text-align: left;
+		} */
+		#footer .ft-web{
+			display: block;
+			float: left;
+			width: 260px;
+			padding: 0 20px;
+			margin-right: 20px;
+		}
+		#footer .current-tip1{
+			background: #ff8362 url(../images/iconTab.png) no-repeat !important;
+			background-position: 10px 10px !important;
+		}
+		#footer .current-tip2{
+			background: #668cff url(../images/iconTab.png) no-repeat !important;
+			background-position: 10px -45px !important;
+		}
+		#footer .current-tip3{
+			background: #2aa9e9 url(../images/iconTab.png) no-repeat !important;
+			background-position: 10px -105px !important;
+		}
+		#footer .current-tip4{
+			background: #33cb1e url(../images/iconTab.png) no-repeat !important;
+			background-position: 10px -163px !important;
+		}
+		#footer .hmn-item {
+		    width: 80px;
+		    height: 50px;
+		    line-height: 50px;
+		    background: #444b53 url(../images/iconTab.png) no-repeat;
+		    color: #fff;
+		    padding-left: 45px;
+		    margin-bottom: 10px;
+		    border-radius: 5px;
+		    font-size: 16px;
+		}
+		#footer .hmn-exercise {
+		    background-position: 10px 10px;
+		}
+		#footer .hmn-exam {
+		    background-position: 10px -45px;
+		}
+		#footer .hmn-topic {
+		    background-position: 10px -105px;
+		}
+		#footer .hmn-discuss {
+		    background-position: 10px -163px;
+		}
+		.home-mod-nav{
+			display: none;
+			position: fixed;
+		    right: 20px;
+		    bottom: 200px;
+		}
+		#footer #container{
+					width: 100%;
+					position: relative;
+					max-width: 100%;
+					height: 300px;
+					margin: 0px auto;
+					overflow: hidden;
+				}
+		#footer #wrap{
+					width: 99999px;
+					position: absolute;
+					height: 300px;
+		
+				}
+		#footer #wrap li{
+					float: left;
+					height: 300px;
+				}
+		#footer #buttons{
+					position: absolute;
+					bottom: 10px;
+					left: 50%;
+					margin-left:-85px;
+				}
+		#footer #buttons li{
+					width: 20px;
+					height: 20px;
+					border-radius: 50%;
+					border: 1px solid #000;
+					float: left;
+					margin-right: 10px;
+				}
+		#footer #container ol li.current{
+					background: #f60;
+				}
+		
+		#footer #container span{
+					position: absolute;
+					width: 20px;
+					height: 40px;
+					background: rgba(0, 0, 0, 0.6);
+					cursor: pointer;
+					line-height: 40px;
+					text-align: center;
+					top: 50%;
+					margin-top: -20px;
+					color: #fff;
+				}
+		#footer #left{
+					left: 10px;
+				}
+		#footer #right{
+					right: 10px;
+				}    

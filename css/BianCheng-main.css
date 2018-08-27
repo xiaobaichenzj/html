@@ -1,0 +1,481 @@
+.nav-list ul li:nth-of-type(3){
+			border: 2px solid #00BC9B;
+			border-width: 0px 0px 2px 0px;
+			/*color: white;*/
+		}
+		.nav-list ul li:nth-of-type(3) a{
+			color: #00BC9B;
+			
+		}
+		.main-box1{
+			width: 960px;
+			margin: 15px auto;
+		}
+		.title{
+			padding: 8px 10px 8px 16px;
+			background-color: white;
+			overflow: hidden;
+		}
+		.title span{
+			display: inline-block;
+			position: relative;
+			width: 7px;
+			height: 7px;
+			background: red;
+			top: 0px;
+			left: -5px;
+			vertical-align: middle;
+		}
+		.title p{
+			font-size: 16px;
+		    line-height: 16px;
+		    float: left;
+		    font-weight: 700;
+		    white-space: nowrap;
+		    vertical-align: middle;
+		}
+		.main-box1{
+			width: 960px;
+			margin: 10px auto;
+			padding: 10px 0px;
+			background-color: white;
+			overflow: hidden;
+		}
+		.listheader{
+			width: 960px;
+			/*margin: 0px auto 15px;*/
+			padding: 10px 10px;
+			background-color: white;
+			overflow: hidden;
+			box-sizing: border-box;
+		}
+		/*.listheader ul{
+			width: 300px;
+			overflow: hidden;
+		}*/
+		.listheader ul li{
+			float: left;
+			padding: 0px 10px;
+			background-color: white;
+			border: 1px solid #eeeeee;
+			border-width: 0px 1px 0px 0px;
+			color: #888;
+			font-weight: 400;
+			font-size: 14px;
+			cursor: pointer;
+		}
+		.listheader ul li:nth-of-type(3){
+			border-width: 0px 0px 0px 0px;
+		}
+		.listheader ul li:hover{
+			color: #00BC9B;
+		}
+		.contrl{
+			width: 80px;
+			/*height: 30px;*/
+			float: right;
+			background-color: white;
+		}
+		.contrl ol{
+			position: relative;
+			top: 9px;
+			/*vertical-align: middle;*/
+		}
+		.contrl ol li{
+			display: inline-block;
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			background-color: #00BC9B;
+			float: left;
+			margin-right: 2px;
+			/*vertical-align: middle;*/
+		}
+		.contrl ol li:nth-of-type(2){
+			background-color: #BCBCBC;
+		}
+		.left_contrl{
+			position: relative;
+			display: inline-block;
+			width: 17px;
+			height: 17px;
+			margin-left: 5px;
+			background-color: red;
+			background: url(img/next-pre-v2.png) 0px -76px;
+			
+			vertical-align: middle;
+		}	
+		.rigth_contrl{
+			position: relative;
+			display: inline-block;
+			width: 17px;
+			height: 17px;
+			background-color: darkolivegreen;
+			background: url(img/next-pre-v2.png) 0px -59px;
+			vertical-align: middle;
+		}	
+		
+		.box1-con ol{
+			padding: 0px 15px;
+		}
+		.box1-con ol li{
+			position: relative;
+			float: left;
+			margin:10px 18px 40px 0px;
+			background-color: white;
+			border: 1px solid #BCBCBC;
+		}
+		.box1-con ol li:nth-child(4),.box1-con ol li:nth-child(8){
+			margin-right: 0px;
+		}
+		.con-center{
+			position: relative;
+		}
+		
+		.con-center>h3{
+			display: inline-block;
+			padding: 8px 8px 0px 8px;
+			font-size: 14px;
+		    margin-bottom: 5px;
+		    overflow: hidden;
+		    width: 200px;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+		    font-weight: 700;
+		    word-wrap: normal;
+		}
+		.con-center>div{
+			padding: 0px 8px 0px 8px;
+			margin-bottom: 27px;
+			font-size: 12px;
+			font-weight: 400;
+		}
+		.num{
+			display: inline-block;
+			float: left;
+			padding-left: 18px;
+			background: url(img/icon-topic.png) no-repeat 0px 2px;
+		}
+		.hotnum{
+			display: inline-block;
+			float: right;
+		}
+		.hotnum span{
+			color:#00BC9B;
+		}
+		.con-hover {
+			position: absolute;
+			bottom: 5px;
+			right: 5px;
+			display: none;
+			/*border: 1px solid ;*/
+			z-index: 100;
+		}
+		.con-hover input{
+			display: inline-block;
+			/*width: 110px;*/
+			/*height: 50px;*/
+			padding: 7px 10px;
+		    text-align: center;
+		    /*width: 100px;*/
+		    color: #FFF;
+		    font-size: 18px;
+		    font-weight: 400;
+		    border-radius: 3px;
+		    border: none 0;
+		    cursor: pointer;
+		    background-color: #00BC9B;
+		}
+		.main-box2{
+			width: 960px;
+			position: relative;
+			margin: 01px auto;
+		}
+		.select{
+			width: 960px;
+			position: relative;
+			/*height: 40px;*/
+			overflow: hidden;
+			padding: 8px 15px;
+			background-color: white;
+			box-sizing: border-box;
+		}
+		.selection{
+			display: inline-block;
+			/*position: relative;*/
+			width: 262px;
+			/*left: 0px;*/
+			padding: 3px 5px;
+			/*background-color: white;*/
+			border: 1px solid #BCBCBC;
+			/*overflow: hidden;*/
+		}
+		.selection label{
+			display: inline-block;
+			float: left;
+			width: 36px;
+			height: 36px;
+			/*background-color: teal;*/
+			/*margin-right: 36px;*/
+			background: url(img/ico-search.png) no-repeat 10px 10px;
+			background-color: #fff;
+		}
+		.selection input{
+			float: left;
+			/*position: absolute;*/
+			/*top: 2px;
+			left: 36px;*/
+			padding: 10px 5px 10px 5px;
+			display: inline-block;
+			border: none;
+			/*text-transform: none;
+   			text-indent: 0px;
+    		text-shadow: none;
+    		letter-spacing: normal;*/
+    		outline:none;
+    		/*margin-left: 38px;*/
+   			width: 200px;
+   			/*background-color: red;*/
+   			/*vertical-align: middle;*/
+		}
+		.select-btn{
+			display: inline-block;
+			float: left;
+			position: absolute;
+			/*top: -4px;*/
+			/*left: 220px;*/
+			font-size: 14px;
+			line-height: 40px;
+			/*font-weight: 400;*/
+			margin: 5px 0px 0px 40px;
+			/*background-color: red;*/
+		}
+		.select-btn input{
+			width: 80px;
+   			font-size: 14px;
+   			padding: 9px 0 10px;
+   			margin-left: 10px;
+   			border: none;
+   			color: white;
+   			border-radius: 3px;
+   			background-color: #00BC9B;
+		}
+		.box2-center{
+			width: 960px;
+			padding: 5px 25px 25px 15px;
+			box-sizing: border-box;
+			background-color: white;
+		}
+		.box2-center table{
+			width: 930px;
+			padding: 10px 0px;
+			margin: 0px auto;
+			font-size: 14px;
+			outline: 1px solid #BCBCBC;
+			border-collapse:collapse;
+		}
+		.table-title th{
+			background: #EDEDED;
+   			color: #888;
+    		padding: 10px;
+    		font-weight: 400;
+    		text-align: left;
+		}
+		.table-title th:nth-of-type(1)
+		{
+			width: 334px;
+		}
+		.table-title th:nth-of-type(2)
+		{
+			width: 124px;
+		}
+		.table-title th:nth-of-type(3)
+		{
+			width: 125px;
+		}
+		.table-title th:nth-of-type(4)
+		{
+			width: 334px;
+		}
+		.box2-center table tr td{
+			font-size: 14px;
+			padding: 10px;
+			border: none
+			box-sizing: border-box;
+			border: 1px dashed #EBEBEB;
+			border-collapse:collapse;
+			border-width: 0px 0px 1px 0px;
+			background-color: white;
+		}
+		.box2-center table tr td:nth-of-type(2),table tr td:nth-of-type(3){
+			text-align: center;
+		}
+		.i-con{
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			position: relative;
+			float: left;
+			margin:8px 10px 0px 0px;
+			background-color: #EBEBEB;
+		}
+		.foot{
+			width: 960px;
+			height: 60px;
+			font-size: 12px;
+			padding-top: 10px;
+			background-color: white;
+		}
+		.foot ul{
+			width: 600px;
+			overflow: hidden;
+			margin: 0px auto;
+		}
+		.foot li{
+			float: left;
+			margin: 0px 5px;
+			height: 30px;
+			line-height: 30px;
+			border: 1px solid  #00bc9b;
+			background-color: white;
+			cursor: pointer;
+		}	
+		.foot li:nth-of-type(3){
+			background-color: #00BC9B;
+		}	
+		.foot li:nth-of-type(3) a{
+			color: white;
+		}
+		.foot a{
+			text-decoration: none;
+			display: block;
+			padding:0px 10px;
+			white-space: nowrap;
+			color: #00bc9b;
+		}
+		.foot a:hover{
+			background-color: #00bc9b;
+			color: white;
+		}
+		.fixed-menu{
+    display: block;
+    top: 200px;
+    position: fixed;
+    z-index: 999;
+    right: 10px;
+    zoom: 1;
+}
+.fixed-menu li {
+    margin-bottom: 5px;
+    position: relative;
+    zoom: 1;
+}
+.fixed-menu li a {
+    float: left;
+    width: 35px;
+    height: 35px;
+    line-height: 16px;
+    border-radius: 3px;
+    border: 1px solid #d6d6d6;
+    background: #fff url('../images/ico-fixed-menu2.png') no-repeat 0 -234px;
+}
+.fixed-menu li::after, .fixed-menu li::before {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.fixed-menu li a.gotop {
+    background-position: 8px -225px;
+}
+.fixed-menu li a.weibo {
+    background-position: 8px -262px;
+}
+.fixed-menu li a.qq {
+    background-position: 8px -303px;
+}
+.fixed-menu li a.wechat {
+    background-position: 8px -343px;
+}
+.fixed-menu li a.feedback {
+    background-position: 8px -382px;
+}
+.fixed-menu li a.phone {
+    background-position: 8px -422px;
+}
+.fixed-menu li a.gotop:hover{
+      background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px 10px;
+}
+.fixed-menu li a.weibo:hover{
+      background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px -25px;
+}
+.fixed-menu li a.qq:hover{
+      background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px -65px;
+}
+.fixed-menu li a.wechat:hover{
+      background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px -105px;     
+}
+.fixed-menu li a.wechat:hover .wx-code{
+    display: block;
+    color: #333;
+}
+
+.fixed-menu .feedback-tips:hover .feedback-letter{
+    display: block;
+    background: #31be9b;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.fixed-menu .feedback-tips:hover .feedback{
+    display: none;
+}
+.fixed-menu li a.phone:hover{
+     background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px -185px;
+}
+.fixed-menu li a.phone:hover .wx-code{
+    display: block;
+    color: #333;
+}
+.fixed-menu li .wx-code {
+    height: 178px;
+    width: 158px;
+    background: url('../images/fixed-menu.png') no-repeat 4px 4px;
+    position: absolute;
+    left: -190px;
+    top: -172px;
+    padding: 16px;
+    display: none;
+}
+.wx-code img {
+    width: 148px;
+    height: 148px;
+}
+
+.phone-code {
+    /* position: relative; */
+    background: #fff;
+    width: 70px;
+    padding: 15px 10px 5px;
+    margin-left: -54px;
+}
+.code-close {
+    float: right;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.fixed-menu li a.feedback-letter, .fixed-menu li a.wx-letter {
+    display: none;
+}
+.phone-code p, .wx-code p {
+    text-align: center;
+    margin-top: 10px;
+}
+dd img, li img, p img {
+    vertical-align: middle;
+}
+.phone-code p {
+    margin-top: 5px;
+}

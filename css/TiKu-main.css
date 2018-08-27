@@ -1,0 +1,507 @@
+		.nav-list ul li:nth-of-type(1){
+			border: 2px solid #00BC9B;
+			border-width: 0px 0px 2px 0px;
+		}
+		.nav-list ul li:nth-of-type(1) a{
+			color: #00BC9B;
+		}
+		#wrap{
+			position: relative;
+			width: 960px;
+			
+			margin: 15px auto;
+			overflow: hidden;
+		}
+		.main-left{
+			width: 205px;
+			float: left;
+			background-color: #eeeeee;
+		}
+		.hide{
+			width: 205px;
+			/*height: 189px;*/
+			padding-top: 10px;
+			background-color: #eeeeee;
+		}
+		.hide a{
+			text-decoration: none;
+		}
+		.hide li{
+			padding: 0px 0px ;
+			position: relative;
+			/*border: 1px solid gray;*/
+		}
+		.menu{
+			/*width: 183px;*/
+			/*height: 54px;*/
+			position:relative;
+			padding: 10px 10px 5px 15px;
+			border: 1px solid #eee;
+			border-width: 0px 0px 1px 0px;
+			background-color: #fff;
+			cursor: pointer;
+		}
+		#main .nav-secound-menu{
+			position:absolute;
+			// bottom:0px;
+			background-color:#3d444c;
+			display:none;
+		}
+		#main .nav-secound-menu li{
+			height:45px;
+		}
+		#main .nav-secound-menu li a{
+			padding:  5px 5px 0px 5px;
+			width: 78px;
+			line-height:30px;
+			// height:20px;
+		}
+		.menu h4{
+			font-weight: 400;
+			display:block;
+			font-size: 14px;
+			margin-bottom: 5px;
+		}
+		.menu .tag{
+			/*display: inline-block;*/
+    		/*margin: 0 10px 5px 0;*/
+   			font-size: 12px;
+		}
+		.menu-hide{
+			position: absolute;
+			width: 270px;
+			left: 200px;
+			top: 0px;
+			padding: 10px 15px 5px 15px;
+			z-index: 100;
+			display: none;
+		}
+		.tag a{
+			color: #888;
+			display: inline-block;
+			margin:0px 10px 5px 0px
+		}
+		.label{
+			position: relative;
+			float: right;
+			width: 10px;
+			height: 10px;
+			top: -20px;
+			background: url(../img/arrows-gray.png) no-repeat;
+		}
+		.list li{
+			text-align: center;
+   		 	background: #fff;
+    		padding-bottom: 20px;
+    		border: 1px solid #eaeaea;
+   			cursor: pointer;
+   			margin-top: 25px;
+			background-color: white;
+		}
+		.list a{
+			text-decoration: none;
+		}
+		.list a:hover{
+			color: #00BC9B;
+		}
+		.list-pic{
+			display: inline-block;
+    		width: 54px;
+   			height: 54px;
+   			border-radius: 50%;
+    		border: 1px solid #eee;
+    		box-shadow: 0 1px 2px rgba(117,117,117,.2);
+    		margin-top: -20px;
+    		margin-bottom: 10px;
+    		background: url(../img/ico-test.png) no-repeat #fff;
+		}
+		.list-text{
+			background-position: center -36px;
+		}
+		.list li:hover {
+			border: 1px solid darkgray;
+		}
+		.list li:hover .list-text{
+			background-position: center 15px;
+		}
+		.list-plan{
+			background-position: 16px -398px;
+		}
+		.list li:hover .list-plan{
+			background-position: 16px -329px;
+		}
+		.list-date{
+			background-position: center -159px;
+		}
+		.list li:hover .list-date{
+			background-position: center -99px;
+		}
+		.list-all{
+			background-position: center -270px;
+		}
+		.list li:hover .list-all{
+			background-position: center -213px;
+		}
+		.list-box h2{
+			font-size: 14px;
+    		color: #333;
+   			 margin-bottom: 5px;
+		}
+		.list-box p{
+		    font-size: 12px;
+   			 color: #8c8c8c;
+		}
+		.main-rigth{
+			width: 740px;
+			float: right;
+			padding: 10px 0px 0px 0px;
+			
+		}
+		.titlt{
+			position: relative;
+			width: 740px;
+			height: 94px;
+			padding: 10px 15px 10px 15px;
+			margin-bottom: 15px;
+			background-color: white;
+			box-sizing: border-box;
+			overflow: hidden;
+		}
+		.titlt p{
+			display: inline-block;
+			font-size: 16px;
+			
+		}
+		.t_label{
+			display: inline-block;
+			position: relative;
+			top: 2px;
+			width: 14px;
+			height: 14px;
+			background-color: white;
+			background: url(../img/v-tag.png);
+		}
+		.t_tips{
+			font-size: 13px;
+    		color: #888;
+   			margin-left: 10px;
+		}
+		.t_change{
+			display: inline-block;
+			float: right;
+			/*margin: -;*/
+		}
+		.left_contrl{
+			display: inline-block;
+			width: 17px;
+			height: 17px;
+			background-color: darkolivegreen;
+			background: url(../img/next-pre-v2.png) 0px -76px;
+			/*vertical-align: middle;*/
+		}	
+		.rigth_contrl{
+			display: inline-block;
+			width: 17px;
+			height: 17px;
+			/*background-color: darkolivegreen;*/
+			background: url(../img/next-pre-v2.png) 0px -59px;
+			/*vertical-align: middle;*/
+		}	
+		.authorize-wrapper{
+			position: absolute;
+			width: 4000px;
+			height: 55px;
+			left: 15px;
+			margin: 10px 0px 0px 0px;
+			/*overflow: hidden;*/
+			/*margin: ;*/
+		}
+		.authorize-box{
+			float: left;
+			width: 110px;
+			height: 45px;
+			margin: 5px 13px 0px 0px;
+			background-color: white;
+		}	
+		.con{
+			width: 740px;
+			border: 1px solid #f0f0f0;
+			border-width: 1px 1px 1px 1px;
+		}
+		.top{
+			width: 740px;
+			height: 42px;
+			/*margin: ;*/
+			background-color: white;
+			border: 2px solid #00bc9b;
+			border-width:0px 0px 2px 0px
+		}
+		.top a{
+			display: inline-block;
+		    padding: 0 20px;
+		    height: 42px;
+		    line-height: 42px;
+		    font-size: 14px;
+		    text-align: center;
+		    color: #333;
+		    white-space: nowrap;
+		}
+		.top a:nth-child(1){
+			background-color: #00bc9b;
+			color: white;
+		}
+		.top a:hover{
+			background-color: #00bc9b;
+			color: white;
+			cursor: pointer;
+		}
+		.center{
+			width: 740px;
+			height: 1672px;
+			padding: 20px;
+			background-color: white;
+			box-sizing: border-box;
+		}
+		.center li{
+			position: relative;
+			float: left;
+			margin: 0px 14px 26px 0px;
+		}
+		.center-box{
+			width: 217px;
+			height: 262px;
+			border: 1px solid #ebebeb;
+			background-color: white;
+		}
+		.center-box h1{
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+			font-size: 14px;
+			color: #666;
+			margin-bottom: 15px;
+			height: 100px;
+			width: 185px;
+			overflow: hidden;
+			line-height: 1.4;
+			font-weight: 400;
+			padding: 0px 15px;
+		}
+		.center-logo{
+			text-align: center;
+			line-height: 100px;
+		}
+		.center p{
+			display: block;
+			font-size: 14px;
+			color: #666;
+			text-align: center;
+			width: 185px;
+			margin: 10px 0px 0px 15px;
+		}
+		.diffcult{
+			/*background: red;*/
+		}
+		.diffcult span:nth-child(1){
+			font-size: 14px;
+		    line-height: 19px;
+		    text-align: right;
+		    width: 60px;
+		    height: 19px;
+		    display: inline-block;
+		    margin: 25px 0px 0px 15px;
+		    /*background: red;*/
+		    vertical-align:middle
+		}
+		.diffcult-pic{
+			display: inline-block;
+			margin: 20px 0px 0px 5px;
+			width: 115px;
+			height: 20px;
+			background: url(../img/stars-new2.png)115px 74px;
+			/*background: black;*/
+			vertical-align:middle
+		}
+		.box-hover{
+			position: absolute;
+			width: 217px;
+			height: 140px;
+			bottom: 45px;
+			left: 1px;
+			background-color: white;
+			text-align: center;
+			display: none;
+		}
+		.box-hover p{
+			display:block;
+			width: 70px;
+			margin: 10px auto 40px;
+		}
+		.box-hover .look{
+			width: 150px;
+			margin: 0px auto;
+			font-size: 14px;
+			background-color: #00bc9b;
+			text-align: center;
+  			padding: 10px 0;
+    		color: #FFF;
+  			border-radius: 3px;
+			cursor: pointer;
+   			white-space: nowrap;
+		}
+		.foot{
+			position: relative;
+			width: 740px;
+			height: 60px;
+			font-size: 12px;
+			background-color: white;
+		}
+		.foot ul{
+			width: 600px;
+			overflow: hidden;
+			margin: 0px auto;
+		}
+		.foot li{
+			float: left;
+
+			margin: 0px 5px;
+			height: 30px;
+			line-height: 30px;
+			border: 1px solid  #00bc9b;
+			background-color: white;
+			cursor: pointer;
+		}
+		
+		.foot a{
+			text-decoration: none;
+			display: block;
+			padding:0px 10px;
+			white-space: nowrap;
+			color: #00bc9b;
+		}
+		.foot a:hover{
+			background-color: #00bc9b;
+			color: white;
+		}
+		.fixed-menu{
+    display: block;
+    top: 200px;
+    position: fixed;
+    z-index: 999;
+    right: 10px;
+    zoom: 1;
+}
+.fixed-menu li {
+    margin-bottom: 5px;
+    position: relative;
+    zoom: 1;
+}
+.fixed-menu li a {
+    float: left;
+    width: 35px;
+    height: 35px;
+    line-height: 16px;
+    border-radius: 3px;
+    border: 1px solid #d6d6d6;
+    background: #fff url('../images/ico-fixed-menu2.png') no-repeat 0 -234px;
+}
+.fixed-menu li::after, .fixed-menu li::before {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.fixed-menu li a.gotop {
+    background-position: 8px -225px;
+}
+.fixed-menu li a.weibo {
+    background-position: 8px -262px;
+}
+.fixed-menu li a.qq {
+    background-position: 8px -303px;
+}
+.fixed-menu li a.wechat {
+    background-position: 8px -343px;
+}
+.fixed-menu li a.feedback {
+    background-position: 8px -382px;
+}
+.fixed-menu li a.phone {
+    background-position: 8px -422px;
+}
+.fixed-menu li a.gotop:hover{
+      background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px 10px;
+}
+.fixed-menu li a.weibo:hover{
+      background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px -25px;
+}
+.fixed-menu li a.qq:hover{
+      background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px -65px;
+}
+.fixed-menu li a.wechat:hover{
+      background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px -105px;     
+}
+.fixed-menu li a.wechat:hover .wx-code{
+    display: block;
+    color: #333;
+}
+
+.fixed-menu .feedback-tips:hover .feedback-letter{
+    display: block;
+    background: #31be9b;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.fixed-menu .feedback-tips:hover .feedback{
+    display: none;
+}
+.fixed-menu li a.phone:hover{
+     background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px -185px;
+}
+.fixed-menu li a.phone:hover .wx-code{
+    display: block;
+    color: #333;
+}
+.fixed-menu li .wx-code {
+    height: 178px;
+    width: 158px;
+    background: url('../images/fixed-menu.png') no-repeat 4px 4px;
+    position: absolute;
+    left: -190px;
+    top: -172px;
+    padding: 16px;
+    display: none;
+}
+.wx-code img {
+    width: 148px;
+    height: 148px;
+}
+
+.phone-code {
+    /* position: relative; */
+    background: #fff;
+    width: 70px;
+    padding: 15px 10px 5px;
+    margin-left: -54px;
+}
+.code-close {
+    float: right;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.fixed-menu li a.feedback-letter, .fixed-menu li a.wx-letter {
+    display: none;
+}
+.phone-code p, .wx-code p {
+    text-align: center;
+    margin-top: 10px;
+}
+dd img, li img, p img {
+    vertical-align: middle;
+}
+.phone-code p {
+    margin-top: 5px;
+}

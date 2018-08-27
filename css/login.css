@@ -1,0 +1,388 @@
+/*
+* @Author: admin
+* @Date:   2018-06-22 02:39:19
+* @Last Modified by:   admin
+* @Last Modified time: 2018-06-28 15:25:37
+*/
+.wrapper {
+    height: 500px;
+	width: 960px;
+	margin: 75px auto 15px;
+	border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden;
+}
+.clearfix {
+    display: block;
+    zoom: 1;
+}
+.tabbed .tab-selected {
+    background: #FFF;
+    border-top: 2px solid #25bb9b;
+}
+.tabbed .tab-selected a{
+    color: #25bb9b;
+}
+.tabbed li {
+    float: left;
+    background: #f3f4f5;
+    border-top: 2px solid #f3f4f5;
+    width: 50%;
+    text-align: center;
+    height: 83px;
+    line-height: 83px;
+}
+.clearfix:after, .clearfix:before {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.tabbed a {
+    color: #666;
+    font-size: 24px;
+    display: block;
+}
+.tab-login, .tab-reg {
+    background: url(../images/reg-login.png) no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: text-bottom;
+    margin-right: 15px;
+}
+.tab-selected .tab-login{
+    background-position: 0 -174px;
+}
+.tab-reg {
+    background-position: 0 -58px;
+}
+.tab-register a:hover {
+    color: #25bb9b;
+}
+.tab-register a:hover span{
+    background-position: 0 -116px;
+}
+
+.form-group:after, .form-group:before {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.wrapper .con{
+	border-top: 1px solid #ededed;
+    margin: 0 20px;
+    padding: 60px 70px 80px;
+}
+.wrapper .con-left{
+	float: left;
+    width: 370px;
+    border-right: 1px solid #ededed;
+    padding-right: 60px;
+    margin-right: -1px;
+    position: relative;
+}
+.wrapper .con-zh{
+	padding: 0 15px;
+    font-size: 14px;
+    float: left;
+    width: 80px;
+    line-height: 42px;
+    height: 42px;
+    text-align: right;
+    margin-bottom: 0;
+}
+.wrapper .con-mm{
+	padding: 0 15px;
+    font-size: 14px;
+    float: left;
+    width: 80px;
+    line-height: 42px;
+    height: 42px;
+    text-align: right;
+    margin-bottom: 0;
+}
+.wrapper .form-group .zhsr input,.wrapper .form-group .mmsr input{
+	border: 1px solid #d4d4d4;
+    color: #34495e;
+    font-family: Lato,sans-serif;
+    font-size: 14px;
+    padding: 8px 5px 7px;
+    width: 248px;
+    height: 22px;
+    border-radius: 3px;
+    outline: 0;
+}
+.wrapper .keep-pwd{
+	margin-left: 105px;
+    float: left;
+    font-size: 14px;
+    color: #999;
+}
+.wrapper .forget-pwd{
+    float: right;
+    color: #67cab2;
+    font-size: 14px;
+}
+.login{
+	width: 258px;
+    margin-left: 110px;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn-primary {
+    background: #00BC9B;
+}
+.btn {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    color: #FFF;
+    font-size: 14px;
+    border-radius: 3px;
+    border: none 0;
+    cursor: pointer;
+    line-height: normal;
+    outline: 0;
+    white-space: nowrap;
+}
+.login-tips{
+	    font-size: 14px;
+	    margin-top: -10px;
+	    margin-left: -65px;
+}
+.login-tips a {
+    color: #67cab2;
+}
+.con-right{
+    float: left;
+    border-left: 1px solid #ededed;
+    padding-left: 60px;
+    position: relative;
+}
+.con-right .separate-line {
+    position: absolute;
+    top: 46%;
+    left: -6px;
+    background: #FFF;
+    color: #999;
+    font-size: 14px;
+}
+.login-way a {
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #d4d4d4;
+    border-radius: 6px;
+    line-height: 38px;
+    height: 38px;
+    font-size: 14px;
+    color: #666;
+    padding-left: 50px;
+    width: 155px;
+    background: url(../images/ico-bind-logo.png) 8px 0 no-repeat;
+}
+.bind-login:after, .login-way:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.login-way .login-qq {
+    background-position: 8px -235px;
+    text-align: left;
+}
+.login-way .login-wb {
+    background-position: 8px -278px;
+    text-align: left;
+}
+.login-way .login-wx {
+    background-position: 8px -390px;
+    text-align: left;
+}
+.login-way .login-more{
+    margin: 0;
+    background: url(../images/ico-fold.png) 12px 12px no-repeat;
+    text-align: left;
+}
+.login-unfold-icons {
+    padding: 0 5px 10px;
+    display: none;
+}
+.login-unfold-icons a{
+    width: 32px;
+    height: 30px;
+    margin: 0 10px 0 0;
+    border: 0;
+    display: inline-block;
+    padding: 0;
+    border-radius: 0;
+}
+.login-way .login-git{
+    background-position: 8px -430px;
+}
+.login-way .login-db{
+    background-position: 8px -358px;
+}
+.login-way .login-rr{
+    background-position: 8px -318px;
+}
+.login-way .login-qq:hover {
+    background-position: 8px 8px;
+    color: #25bb9b;
+}
+.login-way .login-wb:hover {
+    background-position: 8px -34px;
+    color: #25bb9b;
+}
+.login-way .login-wx:hover {
+    background-position: 8px -154px;
+    color: #25bb9b;
+}
+.login-way .login-fold:hover .login-more{
+    background-position: 12px -22px;
+}
+.login-way .login-fold:hover .login-unfold-icons{
+    display: block;
+}
+.login-way .login-git:hover {
+    background-position: 8px -194px;
+}
+.login-way .login-db:hover{
+    background-position: 8px -112px;
+}
+.login-way .login-rr:hover{
+    background-position: 8px -73px;
+}
+.fixed-menu{
+    display: block;
+    top: 200px;
+    position: fixed;
+    z-index: 999;
+    right: 10px;
+    zoom: 1;
+}
+.fixed-menu li {
+    margin-bottom: 5px;
+    position: relative;
+    zoom: 1;
+}
+.fixed-menu li a {
+    float: left;
+    width: 35px;
+    height: 35px;
+    line-height: 16px;
+    border-radius: 3px;
+    border: 1px solid #d6d6d6;
+    background: #fff url('../images/ico-fixed-menu2.png') no-repeat 0 -234px;
+}
+.fixed-menu li::after, .fixed-menu li::before {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.fixed-menu li a.gotop {
+    background-position: 8px -225px;
+}
+.fixed-menu li a.weibo {
+    background-position: 8px -262px;
+}
+.fixed-menu li a.qq {
+    background-position: 8px -303px;
+}
+.fixed-menu li a.wechat {
+    background-position: 8px -343px;
+}
+.fixed-menu li a.feedback {
+    background-position: 8px -382px;
+}
+.fixed-menu li a.phone {
+    background-position: 8px -422px;
+}
+.fixed-menu li a.gotop:hover{
+      background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px 10px;
+}
+.fixed-menu li a.weibo:hover{
+      background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px -25px;
+}
+.fixed-menu li a.qq:hover{
+      background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px -65px;
+}
+.fixed-menu li a.wechat:hover{
+      background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px -105px;     
+}
+.fixed-menu li a.wechat:hover .wx-code{
+    display: block;
+    color: #333;
+}
+
+.fixed-menu .feedback-tips:hover .feedback-letter{
+    display: block;
+    background: #31be9b;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.fixed-menu .feedback-tips:hover .feedback{
+    display: none;
+}
+.fixed-menu li a.phone:hover{
+     background: #31be9b url('../images/ico-fixed-menu2.png') no-repeat 8px -185px;
+}
+.fixed-menu li a.phone:hover .wx-code{
+    display: block;
+    color: #333;
+}
+.fixed-menu li .wx-code {
+    height: 178px;
+    width: 158px;
+    background: url('../images/fixed-menu.png') no-repeat 4px 4px;
+    position: absolute;
+    left: -190px;
+    top: -172px;
+    padding: 16px;
+    display: none;
+}
+.wx-code img {
+    width: 148px;
+    height: 148px;
+}
+
+.phone-code {
+    /* position: relative; */
+    background: #fff;
+    width: 70px;
+    padding: 15px 10px 5px;
+    margin-left: -54px;
+}
+.code-close {
+    float: right;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.fixed-menu li a.feedback-letter, .fixed-menu li a.wx-letter {
+    display: none;
+}
+.phone-code p, .wx-code p {
+    text-align: center;
+    margin-top: 10px;
+}
+dd img, li img, p img {
+    vertical-align: middle;
+}
+.phone-code p {
+    margin-top: 5px;
+}
