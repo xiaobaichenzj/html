@@ -1,9 +1,4 @@
-/*
-* @Author: Administrator
-* @Date:   2018-06-26 23:49:28
-* @Last Modified by:   江少
-* @Last Modified time: 2018-06-27 23:16:18
-*/
+
 		$('.ft-item1').hover(function() {
 			$('.img-tip').css('display', 'block');
 		}, function() {
